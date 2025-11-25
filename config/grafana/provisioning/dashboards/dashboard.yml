@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: Pi-hole Overview
+    type: file
+    disableDeletion: false
+    editable: true
+    allowUiUpdates: true
+    updateIntervalSeconds: 30
+    options:
+      path: /etc/grafana/provisioning/dashboards
